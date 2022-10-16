@@ -6,7 +6,6 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "Terminus:pixelsize=14:antialias=true:autohint=true";
-/* static char *font = "Hack:pixelsize=12:antialias=true:autohint=true"; */
 static char *font2[] = { "JoyPixels:pixelsize=10:antialias=true:autohint=true" };
 static int borderpx = 12;
 
@@ -122,6 +121,8 @@ static const char *colorname[] = {
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cccccc",
 	"#555555",
+	"gray90", /* default foreground colour */
+	"black", /* default background colour */
 };
 
 
